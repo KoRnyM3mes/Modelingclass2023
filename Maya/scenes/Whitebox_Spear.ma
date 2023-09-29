@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Whitebox_Spear.ma
-//Last modified: Thu, Sep 28, 2023 04:06:17 PM
+//Last modified: Thu, Sep 28, 2023 04:53:10 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,17 +10,17 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "FE35F726-48BD-E748-5584-E9A40FE85C96";
+fileInfo "UUID" "56243837-43CD-B6E0-06AC-508988481612";
 createNode transform -s -n "persp";
 	rename -uid "EC82BE42-40B6-EC12-0843-E898F558D611";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.058055650501319 3.8856297698826463 1.7130943039693853 ;
-	setAttr ".r" -type "double3" -35.738352730316599 -1747.4000000000876 0 ;
+	setAttr ".t" -type "double3" 0.63550870485198574 4.2085585417289506 1.017341053310163 ;
+	setAttr ".r" -type "double3" -42.938352730482663 -1772.5999999998412 -3.5824505124783804e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2ABF646A-4A77-E131-360D-E1A03D60BA89";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 3.6215274164573419;
+	setAttr ".coi" 2.5910456930229238;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -100,7 +100,7 @@ createNode mesh -n "HeadShape" -p "Head";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr ".pv" -type "double2" 0.79729437828063965 0.57978544384241104 ;
+	setAttr ".pv" -type "double2" 0.50875633955001831 0.50937342643737793 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
