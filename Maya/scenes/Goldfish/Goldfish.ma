@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Goldfish.ma
-//Last modified: Fri, Oct 13, 2023 06:28:25 PM
+//Last modified: Fri, Oct 13, 2023 06:54:53 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,18 +10,18 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "E8C401D3-4A0D-14EF-C2A9-D7BCFFD97694";
+fileInfo "UUID" "AC56321F-4CFB-3BE3-5D48-019A2C6FA8F4";
 createNode transform -s -n "persp";
 	rename -uid "07B75270-4596-EB30-7DC7-C281BC01DA25";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -4.8313633023066469 47.236951680661583 35.957530369767127 ;
-	setAttr ".r" -type "double3" 310.19999999350858 -5405.9999999974907 3.9975925822516921e-16 ;
+	setAttr ".t" -type "double3" 14.42742640025453 48.01526054988814 -1.5609577593128228 ;
+	setAttr ".r" -type "double3" 289.1999999932379 -5670.0000000003793 0 ;
 	setAttr ".rpt" -type "double3" 2.3980124242387368e-13 1.5627509189687038e-15 -3.6955994236366494e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "8265C888-44F1-5BE3-B4E5-13BAEA704BFE";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 59.133831966490575;
+	setAttr ".coi" 47.718826317133122;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
