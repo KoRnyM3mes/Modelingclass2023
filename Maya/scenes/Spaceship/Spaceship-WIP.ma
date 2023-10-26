@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Spaceship-WIP.ma
-//Last modified: Tue, Oct 24, 2023 03:23:15 PM
+//Last modified: Tue, Oct 24, 2023 04:37:53 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,23 +10,23 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "A9FDE3E0-4735-F084-039C-C0874F43F1B5";
+fileInfo "UUID" "95720E5D-46D1-21BA-1EB9-829B24219F60";
 createNode transform -s -n "persp";
 	rename -uid "C551F8F5-4691-8E2F-E545-CCB9AB8F1D10";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.6329950200722703 3.9996987240587689 16.030353557810489 ;
-	setAttr ".r" -type "double3" 12.600000000016999 -703.60000000000127 2.0721544026998634e-16 ;
-	setAttr ".rp" -type "double3" 0 8.8817841970012523e-16 -7.1054273576010019e-15 ;
-	setAttr ".rpt" -type "double3" -7.6142434279686246e-15 3.1874068800276125e-15 7.2985815849884417e-15 ;
+	setAttr ".t" -type "double3" 11.277461890375754 5.2901970734741459 5.1983667894881975 ;
+	setAttr ".r" -type "double3" -3.464389682872866 783.79999999997631 0 ;
+	setAttr ".rp" -type "double3" 1.3322676295501878e-15 -8.8817841970012523e-15 7.1054273576010019e-15 ;
+	setAttr ".rpt" -type "double3" 8.8092578690560698e-15 9.410354271726981e-15 -4.8306687423585485e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "3BE10944-4F8E-D502-BC4F-D38CB18DC3CA";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 12.134591905310797;
+	setAttr ".coi" 9.1468980349358553;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -3.3793470207861347 5 -2.2780740225976914 ;
+	setAttr ".tp" -type "double3" -4.2642805064338027 4.3565683646112312 -2.278074022597675 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "F3A7BEBE-4DE9-5BDA-9901-A2B5B145B332";
