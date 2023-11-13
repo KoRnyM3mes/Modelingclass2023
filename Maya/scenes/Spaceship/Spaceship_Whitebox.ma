@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: Spaceship_Whitebox.ma
-//Last modified: Wed, Nov 01, 2023 05:17:20 PM
+//Last modified: Wed, Nov 01, 2023 06:38:33 PM
 //Codeset: 1252
 requires maya "2024";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" "mtoa" "5.3.1.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "D494B7E9-45E9-52ED-0100-3D91C2287F62";
+fileInfo "UUID" "6DE6ADC0-4316-A1B7-79AB-2DB96469F70D";
 createNode transform -s -n "persp";
 	rename -uid "C551F8F5-4691-8E2F-E545-CCB9AB8F1D10";
 	setAttr ".v" no;
