@@ -1,6 +1,6 @@
 //Maya ASCII 2024 scene
 //Name: bighammer.ma
-//Last modified: Fri, Nov 17, 2023 01:13:44 PM
+//Last modified: Fri, Nov 17, 2023 01:38:45 PM
 //Codeset: 1252
 requires maya "2024";
 requires "stereoCamera" "10.0";
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2024";
 fileInfo "version" "2024";
 fileInfo "cutIdentifier" "202304191415-7fa20164c6";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 22621)";
-fileInfo "UUID" "CA881DB2-4B3A-73A6-EA0B-44BB49E1576C";
+fileInfo "UUID" "B1C2D93F-45D2-CC54-BC96-6E80D4FDE3A2";
 createNode transform -s -n "persp";
 	rename -uid "EB627C84-4C59-A383-0CFA-A583B98564CA";
 	setAttr ".v" no;
@@ -3652,14 +3652,14 @@ createNode camera -n "cameraShape1" -p "spotLight3";
 	setAttr ".ow" 24.610129525038815;
 createNode transform -n "Edit_Camera";
 	rename -uid "73DCF91F-4C44-FF52-08EB-659A396EEA62";
-	setAttr ".t" -type "double3" 27.499559891149246 10.247496775018533 8.4069791657144943 ;
-	setAttr ".r" -type "double3" -16.538352729612203 74.199999999999292 0 ;
+	setAttr ".t" -type "double3" 4.1423242954206287 4.3856539537843755 0.69062623360376074 ;
+	setAttr ".r" -type "double3" -18.938352729570635 90.999999999970896 -7.6333312355124402e-14 ;
 createNode camera -n "Edit_CameraShape" -p "Edit_Camera";
 	rename -uid "E97B963E-4295-0453-7B36-EE87721E3295";
 	setAttr -k off ".v";
 	setAttr ".rnd" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 36.169599406704066;
+	setAttr ".coi" 6.503895312430541;
 	setAttr ".imn" -type "string" "persp1";
 	setAttr ".den" -type "string" "persp1_depth";
 	setAttr ".man" -type "string" "persp1_mask";
